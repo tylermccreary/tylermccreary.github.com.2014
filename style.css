@@ -1,0 +1,263 @@
+@import url("arrowanimation.css");
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+el, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+body {
+  line-height: 1;
+  }
+ol, ul {
+  list-style: none;
+  }
+blockquote, q {
+  quotes: none;
+  }
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+  }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}  
+/* end of reset */
+/* CSS for the header */
+html {
+  background:url('images/background.jpg') repeat fixed;
+  }
+a {
+  color:#FF9912;
+  text-decoration:none;
+  }  
+header {
+  background-image: url("images/bg.jpg"); 
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vh;
+  margin:0px auto;
+  }
+
+header .quote {
+  font-family: "Playfair Display", serif;
+  color:#FF9912;
+  font-style: italic;
+  display:block;
+  margin: 0px auto;
+  text-align: center;
+  line-height:23px;
+  letter-spacing:2px;
+   }
+header .linetop {
+    display: block;
+    border-bottom: 1px solid #FF9912;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 40%;
+    height: 4px; }
+
+header .linetop:first-child {
+    padding-top: 30px;
+    }
+.myname {
+  font-size: 45px;
+  text-align:center;
+  padding-top:200px;
+  font-family: 'Museo Slab 500', Calibri,Arial,sans-serif;
+  color: #FF9912;
+  text-shadow: #18181a;
+}
+.whatiam {
+  font-size: 28px;
+  text-align:center;
+  font-family: 'Open Sans Light',Calibri,Arial,sans-serif;
+  width: 100%;
+  color: #b9b9b9;
+  margin-bottom: 0.8em;
+  margin-top: 0.4em;
+}
+header .socialnav {
+  display:block;  
+  text-align:center;
+   }    
+/* CSS for "About me" section */
+.aboutme-headingwrapper .viktorlogo {
+  display:block;
+  margin: 35px auto;
+  border-radius: 50%;
+  border: 3px solid #FF9912;
+  overflow:hidden;
+  width:180px;
+  height:180px;
+  z-index:10;
+  }   
+  section div.heading .linetop {
+    margin-top: 90px;
+  }
+section div.heading .linetop, section div.heading .linebottom {
+  display:block;
+  width:20%;
+  border-top:1px solid #ffffff;
+  }        
+.aboutme-headingwrapper .linetop, .experience .linetop, .contact .linetop {
+  margin:15px auto 0px auto;
+  }
+.aboutme-headingwrapper .linebottom, .experience .linebottom,.contact .linebottom {
+  margin:0px auto;
+  }
+.heading h1 {
+  text-align:center;
+  text-transform:uppercase;
+  font-family: 'Museo Slab 500', helvetica, sans-serif;
+  font-size:200%;
+  letter-spacing:2px;
+  font-weight:bold;
+  width:21%;
+  border-bottom:1px solid #ffffff;
+  border-top:1px solid #ffffff;
+  margin:3px auto;
+  padding:5px;
+  color:#ffffff;
+  } 
+.about-description, .experience-description, .contact-description {
+  padding-right:10px;
+  width:525px;
+  margin:10px auto 0 auto;
+  text-align:center;
+   } 
+.about-description p, .experience-description p, .contact-description p {
+  font-family:'Open Sans', helvetica, arial, sans-serif;
+  text-indent:30px;
+  font-style:italic;
+  color: #ffffff; 
+  clear:both;
+  margin-top:15px;
+  line-height:22px;
+  }
+/* Css for "Experience" section  */
+.experience-description {
+  width:770px;
+  margin: 15px auto 0 auto;
+  overflow:auto;
+  padding:5px;
+  } 
+
+section.experience div.heading .linetop {
+    margin-top: 20px;
+}
+
+.languages {
+  margin-top:20px;
+  clear:both;
+  }
+.languages h2 {
+  width:400px;
+  text-align:center;
+  font-family: 'Museo Slab 500', sans-serif;
+  padding-bottom:10px;
+  text-transform:uppercase;
+  border-bottom:1px solid #ffffff;
+  color:#ffffff;
+  margin:15px auto 10px auto;
+  }
+.langicons {
+  width:1000px;
+  margin:0 auto;
+  text-align:center;
+  }
+.langicons span {
+  display:inline-block;
+  margin-top:2%;
+  margin-left:10px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  overflow:hidden;
+  height:128px;
+  width:128px;
+  z-index:10;
+  background-color: rgba(255,255,255,0.1);
+  }
+
+.langicons span .text {
+  visibility: hidden;
+}
+
+.langicons span:hover {
+  background-color: rgba(255,153,18,0.4);
+}  
+
+.languages img {
+  padding-top:30px;
+  }
+/* Css for "Contacts" page */
+.contact-description {
+  width:550px;
+  margin:4% auto 0 auto;
+  }
+.contactlinkswrapper {
+  border-top:1px solid gray;
+  width:960px;
+  height:100px;
+  margin:7% auto 0 auto;
+  } 
+.contactlinks div {
+  display:inline-block;
+  height:70px;
+  width:300px;
+  margin-top:2%;
+  overflow:auto;
+  text-align:center;
+  } 
+.contactlinks .resume, .contactlinks .sayhi {
+  border-right:1px solid gray;
+  }
+.contactlinks .sayhi:first-child{
+  text-align:center;
+}
+.contactlinks p:not(a) {
+  margin:2px auto;
+  font-size:0.8em;
+  color:#ffffff;
+  }
+.contactlinks p.bottomhalf {
+  font-family:'Museo Slab 500', helvetica, sans-serif;
+  font-size:1.2em;
+  margin-top:5px;
+  } 
+.sociallinks p:last-child {
+  margin-top:7px;
+  }  
+.back-to-top {
+  width:130px;
+  text-align:center; 
+  margin:15px auto 0px auto;
+}  
+.back-to-top p {
+  margin-top:5px;
+  color:#FF9912;
+  }
