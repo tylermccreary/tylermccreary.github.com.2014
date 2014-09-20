@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta name="author" content="Tyler McCreary">
     <meta name="description" content="The personal website of Tyler McCreary">
-    <meta name="keywords" content="tyler mccreary personal website resume iowa truman state university">
+    <meta name="keywords" content="tyler mccreary personal website resume unity iowa truman state university">
     <meta name="ROBOTS" content="all,follow">
-    <title>TYLER McCREARY</title>
+    <title>TYLER | McCREARY</title>
   	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
 	  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
 	  <link href="style.css" type="text/css" rel="stylesheet">
 	  <link href="font-typefaces.css" type="text/css" rel="stylesheet">
     <link href="animate.css" type"text/css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto|Open+Sans|Droid+Serif|Montserrat|Lobster|Anton|Pacifico' rel='stylesheet' type='text/css'>
 	  <script>
 	  	$(document).ready(function(){
       		$(".main").onepage_scroll({
@@ -36,9 +37,11 @@
     <div class="main">
       <section class="header-wrap" id="header-section">
         <header>
-          <span class="linetop"></span>
-				  <span class="quote">Two roads diverged in a wood, and I-I took the one less traveled by. <br /> And that has made all the difference.</span>
-				  <span class="linetop"></span>
+	<div heading>
+          <!--<span class="linetop"></span>
+				  <span class="quote">The official website of Tyler McCreary <br /> ... <br /> Welcome </span>
+				  <span class="linebottom"></span>-->
+	</div>
 				  <h1 class="myname">Tyler McCreary</h1>
 				  <h2 class="whatiam">Developer</h2>
 				  <span class="socialnav">
@@ -47,10 +50,11 @@
 					  <!--<a href="https://twitter.com/followers" target="_blank"><img src="socialmedia/twitter.png" alt="tw"/></a>-->
 					  <a href="mailto:tjmccreary@gmail.com"><img src="socialmedia/email.png" alt="email"/></a>
 					  <!--<a href="https://www.linkedin.com/profile/view?id=271291330&amp;trk=nav_responsive_tab_profile" target="_blank"><img src="socialmedia/linkedin.png" alt="ln"/></a>-->
-				  </span>
-				  <div class="downarrow downarrowpage1" onclick="$('.main').moveDown()">
-				      <img src="images/down.png" alt="godown"/>
+					<div class="downarrow downarrowpage1" onclick="$('.main').moveDown()">
+				      <img src="images/down_white.png" alt="godown"/>
 				  </div>
+				  </span>
+				  
 			  </header>
 		  </section>
     	<section class="aboutSection" id="aboutsection">
@@ -63,22 +67,28 @@
               <img src="images/logo.jpg" alt="me" class="viktorlogo" />
         </div>
         <div class="about-description">
-          <p>I'm a senior, double majoring in Computer Science/Finance at Truman State University in Kirksville, Missouri. <br />I'm graduating summa cum laude in December and I'm excited to see where life takes me next.</p>
-          <p> I enjoy reading, programming and <a href="http://en.wikipedia.org/wiki/Chill_out_music" target="_blank"> chillout </a> stations on Songza.<br /> On a good day I might even cook traditional Macedonian recipes.</p>
-        </div>
+          <p>I'm a senior, majoring in Computer Science, minoring in Business Administration, and played varsity baseball for 4 years at Truman State University. I'm graduating in May of 2015.</p>
+          <p> I enjoy playing programming, playing sports, as well as video games. I'm currently working on a 2D-Platformer using <a href="http://unity3d.com" target="_blank">Unity</a> in my spare time.</p>
         <div class="downarrow downarrowpage2" onclick="$('.main').moveDown()">
             <img src="images/down_white.png" alt="godown" />
        	</div>
+	</div>
+        
       </section>
       <section class="experience" id="experiencesection">
+	<div class="experience-headingwrapper">
       	<div class="heading">
       		<span class="linetop"></span>
           <h1>Experience</h1>
           <span class="linebottom"></span>
         </div>
+	</div>
         <div class="experience-description">
-          <p>In the past I've worked as a business analyst intern for <a href="http://www.pinnacle1.com/">Pinnacle Technical Resources,</a> including a rotational program in the Accounting, Finance and Business Intelligence departments. I've had hands on experience in dealing with clients as well as tracking the cash flow throughout the company. <br />In my role as a business analyst I created MSSQL reports for all departments and their respective executives, including Accounting, Finance, HR and Sales. I've developed and automated approximately fifty reports that streamlined company operations and processes.</p>
-          <p>This summer I was interning as a software developer at <a href="http://www.asynchrony.com/">Asynchrony, Inc.</a> In a team of six we turned an Agile board game into a mobile app that will be used to train new employees on good Agile practices. We developed using TDD and pair-programming and achieved about 90% test coverage. We used really cool frameworks (RoboGuice anyone?) and I've learned more in the three months there than all my previous experience combined. It was a great summer and I consider myself lucky to have been part of such a great team.</p>
+	  <p>This previous summer, I was interning as a software engineer at <a href="http://www.cerner.com">Cerner Corporation</a>. I worked with another intern on a web application to improve the lives of the engineers on our team
+		Our team had a way of extracting patient information, but it would be processed and transformed before they saw the results. Together we added a way for our team to see the data before it's processed. The web application
+		is used to call this method and present the data. This tool is used for troubleshooting purposes.</p>
+	  <p>Languages I used over the internship include Java, Ruby, HTML, CSS, JavaScript, JQuery, and more. I also used technologies such as Git, Eclipse, Maven, Jenkins and more.</p>
+          <p>In the past I've worked as a junior varsity baseball coach at my alma mater.</p>
         </div> 
         <div class="languages">
       	  <h2 >Languages and Technologies:</h2>
@@ -96,11 +106,13 @@
         </div>
 		  </section>
 		  <section class="contact" id="contactsection">
+		<div class="contact-headingwrapper">
 		    <div class="heading">
       		<span class="linetop"></span>
           <h1>Contact Me</h1>
           <span class="linebottom"></span>
         </div>
+	</div>
         <div class="contact-description">
           <p>If I look like an interesting candidate for your company or you liked this website so much that you'd like me to build one for you, please feel free to contact me.</p>
           <p>If you're an old friend whom I lost contact with, <i>please</i> send me an email and let me know how everything in your life is.</p> 
@@ -110,18 +122,18 @@
           <div class="contactlinks">
             <div class="resume">
               <p>Want to know more?</p>
-              <p class="bottomhalf"><a href="https://docs.google.com/document/d/1ckbVIi7dGng9Abx2sgzsVqLBBlBECyE6yu5EU0kgjY4/edit" >See my Résumé</a></p>
+              <p class="bottomhalf"><a href="https://docs.google.com/document/d/1ckbVIi7dGng9Abx2sgzsVqLBBlBECyE6yu5EU0kgjY4/edit" >See my R&eacute;sum&eacute;</a></p>
             </div>
             <div class="sayhi">
               <p>Say Hello! </p>
-              <p class="bottomhalf"><a href="mailto:viktoryankoff@gmail.com">viktoryankoff@gmail.com</a></p>
+              <p class="bottomhalf"><a href="mailto:tjmccreary@gmail.com">tjmccreary@gmail.com</a></p>
             </div>
             <div class="sociallinks">
               <p>Follow me on </p>
-              <p><a href="https://github.com/viktoryankoff" target="_blank"><img src="socialmedia/github_white.png" alt="gh"/></a>
-              <a href="skype:viktorjankov?userinfo" title="username:viktorjankov"><img src="socialmedia/skype_white.png" alt="skype"/></a>
-              <a href="https://twitter.com/followers" target="_blank"><img src="socialmedia/twitter_white.png" alt="tw"/></a>
-              <a href="https://www.linkedin.com/profile/view?id=271291330&amp;trk=nav_responsive_tab_profile" target="_blank"><img src="socialmedia/linkedin_white.png" alt="ln"/></a></p>
+              <p><a href="https://github.com/tylermccreary" target="_blank"><img src="socialmedia/github_white.png" alt="gh"/></a>
+              <!--<a href="skype:viktorjankov?userinfo" title="username:viktorjankov"><img src="socialmedia/skype_white.png" alt="skype"/></a>
+              <a href="https://twitter.com/followers" target="_blank"><img src="socialmedia/twitter_white.png" alt="tw"/></a>-->
+              <!--<a href="https://www.linkedin.com/profile/view?id=271291330&amp;trk=nav_responsive_tab_profile" target="_blank"><img src="socialmedia/linkedin_white.png" alt="ln"/></a></p>-->
             </div>
           </div>
         </div>

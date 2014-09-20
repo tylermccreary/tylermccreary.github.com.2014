@@ -64,21 +64,32 @@ header {
   }
 
 header .quote {
-  font-family: "Playfair Display", serif;
-  color:#FF9912;
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
   font-style: italic;
   display:block;
   margin: 0px auto;
   text-align: center;
   line-height:23px;
   letter-spacing:2px;
-   }
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  width: 350px; }
+
 header .linetop {
     display: block;
-    border-bottom: 1px solid #FF9912;
+    border-top: 1px solid #FFFFFF;
     margin: 0px auto;
     overflow: hidden;
-    width: 40%;
+    width: 325px;
+    height: 4px; }
+
+header .linebottom {
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0px auto;
+    overflow: hidden;
+    width: 325px;
     height: 4px; }
 
 header .linetop:first-child {
@@ -88,7 +99,7 @@ header .linetop:first-child {
   font-size: 45px;
   text-align:center;
   padding-top:200px;
-  font-family: 'Museo Slab 500', Calibri,Arial,sans-serif;
+  font-family: 'Droid Serif', serif;
   color: #FF9912;
   text-shadow: #18181a;
 }
@@ -97,7 +108,7 @@ header .linetop:first-child {
   text-align:center;
   font-family: 'Open Sans Light',Calibri,Arial,sans-serif;
   width: 100%;
-  color: #b9b9b9;
+  color: #FFFFFF;
   margin-bottom: 0.8em;
   margin-top: 0.4em;
 }
@@ -122,8 +133,12 @@ header .socialnav {
 section div.heading .linetop, section div.heading .linebottom {
   display:block;
   width:20%;
-  border-top:1px solid #ffffff;
-  }        
+  border-top:1px solid #FFFFFF;
+  }
+.aboutme-headingwrapper, .experience-headingwrapper, .contact-headingwrapper {
+  position: relative;
+  top: -50px;
+}        
 .aboutme-headingwrapper .linetop, .experience .linetop, .contact .linetop {
   margin:15px auto 0px auto;
   }
@@ -133,7 +148,7 @@ section div.heading .linetop, section div.heading .linebottom {
 .heading h1 {
   text-align:center;
   text-transform:uppercase;
-  font-family: 'Museo Slab 500', helvetica, sans-serif;
+  font-family: 'Droid Serif', serif;
   font-size:200%;
   letter-spacing:2px;
   font-weight:bold;
@@ -147,11 +162,11 @@ section div.heading .linetop, section div.heading .linebottom {
 .about-description, .experience-description, .contact-description {
   padding-right:10px;
   width:525px;
-  margin:10px auto 0 auto;
+  margin: 0px auto 0 auto;
   text-align:center;
    } 
 .about-description p, .experience-description p, .contact-description p {
-  font-family:'Open Sans', helvetica, arial, sans-serif;
+  font-family: 'Droid Serif', serif;
   text-indent:30px;
   font-style:italic;
   color: #ffffff; 
@@ -159,6 +174,16 @@ section div.heading .linetop, section div.heading .linebottom {
   margin-top:15px;
   line-height:22px;
   }
+.about-description, .contact-description {
+  position: relative;
+  top: -30px
+}
+
+.experience-description {
+  position: relative;
+  top: -50px
+}
+
 /* Css for "Experience" section  */
 .experience-description {
   width:770px;
@@ -168,17 +193,17 @@ section div.heading .linetop, section div.heading .linebottom {
   } 
 
 section.experience div.heading .linetop {
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .languages {
-  margin-top:20px;
+  margin-top: -50px;
   clear:both;
   }
 .languages h2 {
   width:400px;
   text-align:center;
-  font-family: 'Museo Slab 500', sans-serif;
+  font-family: 'Droid Serif', serif;
   padding-bottom:10px;
   text-transform:uppercase;
   border-bottom:1px solid #ffffff;
@@ -223,13 +248,13 @@ section.experience div.heading .linetop {
   border-top:1px solid gray;
   width:960px;
   height:100px;
-  margin:7% auto 0 auto;
+  margin:10px auto 0 auto;
   } 
 .contactlinks div {
   display:inline-block;
   height:70px;
   width:300px;
-  margin-top:2%;
+  margin-top: 2%;
   overflow:auto;
   text-align:center;
   } 
@@ -245,7 +270,7 @@ section.experience div.heading .linetop {
   color:#ffffff;
   }
 .contactlinks p.bottomhalf {
-  font-family:'Museo Slab 500', helvetica, sans-serif;
+  font-family: 'Droid Serif', serif;
   font-size:1.2em;
   margin-top:5px;
   } 
