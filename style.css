@@ -198,6 +198,7 @@ section.experience div.heading .linetop {
   width:400px;
   text-align:center;
   font-family: 'Droid Serif', serif;
+  font-weight: bold;
   padding-bottom:10px;
   text-transform:uppercase;
   border-bottom:1px solid #ffffff;
@@ -209,7 +210,8 @@ section.experience div.heading .linetop {
   margin:0 auto;
   text-align:center;
   }
-.langicons span {
+
+/*.langicons span {
   display:inline-block;
   margin-top:2%;
   margin-left:10px;
@@ -220,19 +222,34 @@ section.experience div.heading .linetop {
   width:128px;
   z-index:10;
   background-color: rgba(255,255,255,0.1);
-  }
-
+  }*/
+/*
 .langicons span .text {
   visibility: hidden;
-}
+}*/
 
+/*
 .langicons span:hover {
   background-color: rgba(255,153,18,0.4);
-}  
+}  */
 
-.languages img {
+.langicons p {
+  color: #FF9912;
+  font-size: 150%;
+}
+
+#col1, #col2, #col3{
+  display:inline-block;
+  margin-top:2%;
+  margin-left:10px;
+  height:128px;
+  width:128px;
+}
+
+
+/*.languages img {
   padding-top:30px;
-  }
+  }*/
 /* Css for "Contacts" page */
 .contact-description {
   width:550px;
