@@ -115,19 +115,8 @@ header .linetop:first-child {
 header .socialnav {
   display:block;  
   text-align:center;
-   }    
-/* CSS for "About me" section */
-.aboutme-headingwrapper .viktorlogo {
-  display:block;
-  margin: 35px auto;
-  border-radius: 50%;
-  border: 3px solid #FF9912;
-  overflow:hidden;
-  width:180px;
-  height:180px;
-  z-index:10;
-  }   
-  section div.heading .linetop {
+   }       
+section div.heading .linetop {
     margin-top: 90px;
   }
 section div.heading .linetop, section div.heading .linebottom {
@@ -157,7 +146,7 @@ section div.heading .linetop, section div.heading .linebottom {
   border-top:1px solid #ffffff;
   margin:3px auto;
   padding:5px;
-  color:#ffffff;
+  color:#ff9912;
   } 
 .about-description, .experience-description, .contact-description {
   padding-right:10px;
@@ -190,14 +179,19 @@ section div.heading .linetop, section div.heading .linebottom {
   margin: 15px auto 0 auto;
   overflow:auto;
   padding:5px;
-  } 
+  }
+
+#expDown {
+  position: relative;
+  top: 130px;
+}
 
 section.experience div.heading .linetop {
     margin-top: 90px;
 }
 
 .languages {
-  margin-top: -50px;
+  margin-top: -10px;
   clear:both;
   }
 .languages h2 {
@@ -246,7 +240,7 @@ section.experience div.heading .linetop {
   }
 .contactlinkswrapper {
   border-top:1px solid gray;
-  width:960px;
+  width:640px;
   height:100px;
   margin:10px auto 0 auto;
   } 
@@ -258,9 +252,13 @@ section.experience div.heading .linetop {
   overflow:auto;
   text-align:center;
   } 
-.contactlinks .resume, .contactlinks .sayhi {
+.contactlinks .resume {
   border-right:1px solid gray;
+  width: 320px;
   }
+.contactlinks .sayhi {
+  border-left: 1px solid gray;
+}
 .contactlinks .sayhi:first-child{
   text-align:center;
 }
@@ -280,9 +278,6 @@ section.experience div.heading .linetop {
 .back-to-top {
   width:130px;
   text-align:center; 
-  margin:15px auto 0px auto;
-}  
-.back-to-top p {
-  margin-top:5px;
+  margin: 200px auto 0px auto;
   color:#FF9912;
-  }
+}
