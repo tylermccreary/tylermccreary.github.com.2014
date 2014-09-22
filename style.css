@@ -186,6 +186,16 @@ section div.heading .linetop, section div.heading .linebottom {
   top: 130px;
 }
 
+#aboutDown {
+  position: relative;
+  top: -15px;
+}
+
+#homeDown {
+  position: relative;
+  top: 95px;
+}
+
 section.experience div.heading .linetop {
     margin-top: 90px;
 }
