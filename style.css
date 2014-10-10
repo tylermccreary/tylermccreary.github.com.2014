@@ -34,6 +34,59 @@ body {
   line-height: 1;
 }
 
+#nav
+{
+  /*background-color: #000011;*/
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  cursor: default;
+  height: 50px;
+}
+
+#nav ul
+{
+  margin-bottom: 0;
+}
+
+#nav li
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 200%;
+  display: inline-block;
+}
+
+#nav a
+{
+  position: relative;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+}
+    
+#nav a:hover
+{
+  color: #ff9912 !important;
+}
+
+#nav a.active:before
+{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -0.6em;
+  left: 50%;
+  margin-left: -0.75em;
+  border-left: solid 0.75em transparent;
+  border-right: solid 0.75em transparent;
+  border-top: solid 0.6em #282828;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -116,7 +169,7 @@ header .linetop:first-child {
 .myname {
   font-size: 45px;
   text-align:center;
-  padding-top:75px;
+  padding-top:175px;
   font-family: 'Droid Serif', serif;
   color: #FF9912;
   text-shadow: #18181a;
@@ -149,7 +202,7 @@ section div.heading .linetop, section div.heading .linebottom {
 
 .aboutme-headingwrapper, .experience-headingwrapper, .contact-headingwrapper {
   position: relative;
-  top: 0px;
+  top: 100px;
 }        
 .aboutme-headingwrapper .linetop, .experience .linetop, .contact .linetop {
   margin:15px auto 0px auto;
@@ -188,12 +241,12 @@ section div.heading .linetop, section div.heading .linebottom {
   }
 .about-description, .contact-description {
   position: relative;
-  top: 20px
+  top: 120px
 }
 
 .experience-description {
   position: relative;
-  top: 0px
+  top: 100px
 }
 
 /* Css for "Experience" section  */
@@ -224,7 +277,7 @@ section.experience div.heading .linetop {
 }
 
 .languages {
-  margin-top: 40px;
+  margin-top: 190px;
   clear:both;
   }
 .languages h2 {
@@ -320,8 +373,14 @@ section.experience div.heading .linetop {
 .contactlinks p.bottomhalf {
   font-family: 'Droid Serif', serif;
   font-size:1.2em;
-  margin-top:55px;
+  margin-top:105px;
   } 
+
+.contactlinkswrapper {
+  position: relative;
+  top: 50px;
+} 
+
 .sociallinks p:last-child {
   margin-top:7px;
   }  
@@ -347,3 +406,5 @@ section {
 .experience {
   background-color: #111122;
 }
+
+

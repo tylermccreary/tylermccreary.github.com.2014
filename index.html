@@ -25,21 +25,13 @@
   </head>
   <body>
     <nav id="nav">
-      <ul class="container">
-        <li>
-          <a href=".header-wrap"></a>
-        </li>
-        <li>
-          <a href=".aboutSection"></a>
-        </li>
-        <li>
-          <a href="experience"></a>
-        </li>
-        <li>
-          <a href="contact"></a>
-        </li>
-      </ul>
-    </nav>
+        <ul class="container">
+          <li><a onclick="$('.main').moveTo(1)">Top</a></li>
+          <li><a onclick="$('.main').moveTo(2)">About</a></li>
+          <li><a onclick="$('.main').moveTo(3)">Experience</a></li>
+          <li><a onclick="$('.main').moveTo(4)">Contact</a></li>
+        </ul>
+      </nav>
     <div class="main">
         <section class="header-wrap" id="header-section">
           <header>
@@ -48,8 +40,10 @@
 				        <span class="quote">The official website of Tyler McCreary <br /> ... <br /> Welcome </span>
 				          <span class="linebottom"></span>-->
             </div>
-            <h1 class="myname">Tyler McCreary</h1>
-            <h2 class="whatiam">Developer</h2>
+            <div id="me">
+              <h1 class="myname">Tyler McCreary</h1>
+              <h2 class="whatiam">Developer</h2>
+            </div>
             <span class="socialnav">
 			         <!-- <a href="https://github.com/tylermccreary" target="_blank"><img src="socialmedia/github.png" alt="gh"/></a>
 			         <a href="mailto:tjmccreary@gmail.com"><img src="socialmedia/email.png" alt="email"/></a>-->
