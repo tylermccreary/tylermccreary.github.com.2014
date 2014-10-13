@@ -9,6 +9,8 @@
     <title>TYLER | McCREARY</title>
   	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	  <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+
+    <script type="text/javascript" src="navbar.js"></script>
 	  <link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
 	  <link href="style.css" type="text/css" rel="stylesheet">
 	  <link href="font-typefaces.css" type="text/css" rel="stylesheet">
@@ -22,14 +24,20 @@
       		});
 		  });
     </script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+     // What do I run here to grab external file function?
+         myFunction();
+     });
+    </script>
   </head>
   <body>
     <nav id="nav">
         <ul class="container">
-          <li><a onclick="$('.main').moveTo(1)">Top</a></li>
-          <li><a onclick="$('.main').moveTo(2)">About</a></li>
-          <li><a onclick="$('.main').moveTo(3)">Experience</a></li>
-          <li><a onclick="$('.main').moveTo(4)">Contact</a></li>
+          <li><a  id="navTop" onclick="$('.main').moveTo(1)">Top</a></li>
+          <li><a id="navAbout" onclick="$('.main').moveTo(2)">About</a></li>
+          <li><a id="navExp" onclick="$('.main').moveTo(3)">Experience</a></li>
+          <li><a id="navContact" onclick="$('.main').moveTo(4)">Contact</a></li>
         </ul>
       </nav>
     <div class="main">

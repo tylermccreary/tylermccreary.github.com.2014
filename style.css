@@ -36,12 +36,10 @@ body {
 
 #nav
 {
-  /*background-color: #000011;*/
-  text-align: center;
+  text-align: right;
   position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
+  right: 30px;
+  top: 40%;
   z-index: 10000;
   cursor: default;
   height: 50px;
@@ -56,15 +54,17 @@ body {
 {
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 200%;
-  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  cursor: hand;
 }
 
 #nav a
 {
   position: relative;
   display: block;
-  color: #fff;
+  /*color: #666;*/
   text-decoration: none;
   outline: 0;
 }
@@ -117,7 +117,7 @@ html {
   /*background:url('images/KansasCity1.jpg') repeat fixed;*/
 }
 
-a {
+.header-wrap a, .aboutSection a, .experience a, .contact a {
   color:#FF9912;
   text-decoration:none;
 }
@@ -218,8 +218,8 @@ section div.heading .linetop, section div.heading .linebottom {
   letter-spacing:2px;
   font-weight:bold;
   width:21%;
-  /*border-bottom:1px solid #ffffff;
-  border-top:1px solid #ffffff;*/
+  border-bottom:1px solid #ffffff;
+  border-top:1px solid #ffffff;
   margin:3px auto;
   padding:5px;
   color:#ff9912;
