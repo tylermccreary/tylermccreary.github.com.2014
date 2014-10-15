@@ -55,7 +55,7 @@ body {
   margin-left: 20px;
   margin-right: 20px;
   font-size: 20px;
-  margin-bottom: 4px;
+  height: 24px;
   cursor: pointer;
   cursor: hand;
 }
@@ -64,7 +64,6 @@ body {
 {
   position: relative;
   display: block;
-  /*color: #666;*/
   text-decoration: none;
   outline: 0;
 }
@@ -200,14 +199,14 @@ section div.heading .linetop, section div.heading .linebottom {
   border-top:1px solid #FFFFFF;
 }*/
 
-.aboutme-headingwrapper, .experience-headingwrapper, .contact-headingwrapper {
+.aboutme-headingwrapper, .experience-headingwrapper, .project-headingwrapper, .contact-headingwrapper {
   position: relative;
   top: 100px;
 }        
-.aboutme-headingwrapper .linetop, .experience .linetop, .contact .linetop {
+.aboutme-headingwrapper .linetop, .experience .linetop, .project .linetop,  .contact .linetop {
   margin:15px auto 0px auto;
   }
-.aboutme-headingwrapper .linebottom, .experience .linebottom,.contact .linebottom {
+.aboutme-headingwrapper .linebottom, .experience .linebottom, .project .linebottom, .contact .linebottom {
   margin:0px auto;
   }
 .heading h1 {
@@ -224,13 +223,13 @@ section div.heading .linetop, section div.heading .linebottom {
   padding:5px;
   color:#ff9912;
   } 
-.about-description, .experience-description, .contact-description {
+.about-description, .experience-description, .project-description, .contact-description {
   padding-right:10px;
   width:525px;
   margin: 0px auto 0 auto;
   text-align:center;
    } 
-.about-description p, .experience-description p, .contact-description p {
+.about-description p, .experience-description p, .project-description p, .contact-description p {
   font-family: 'Droid Serif', serif;
   text-indent:30px;
   font-style:italic;
@@ -244,13 +243,13 @@ section div.heading .linetop, section div.heading .linebottom {
   top: 120px
 }
 
-.experience-description {
+.experience-description, .project-description {
   position: relative;
   top: 100px
 }
 
-/* Css for "Experience" section  */
-.experience-description {
+/* Css for "Project" section  */
+.project-description {
   width:770px;
   margin: 15px auto 0 auto;
   overflow:auto;
@@ -399,12 +398,10 @@ section {
   background-color: rgba(0, 0, 20, .6)
 }
 
-.aboutSection {
+.aboutSection, .experience, .project, .contact {
   background-color: #000011;
 }
 
-.experience {
-  background-color: #111122;
-}
+
 
 
